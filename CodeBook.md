@@ -1,81 +1,87 @@
-"subject"
-"activity"
-"avg_tBodyAcc_mean_X"
-"avg_tBodyAcc_mean_Y"
-"avg_tBodyAcc_mean_Z"
-"avg_tBodyAcc_std_X"
-"avg_tBodyAcc_std_Y"
-"avg_tBodyAcc_std_Z"
-"avg_tGravityAcc_mean_X"
-"avg_tGravityAcc_mean_Y"
-"avg_tGravityAcc_mean_Z"
-"avg_tGravityAcc_std_X"
-"avg_tGravityAcc_std_Y"
-"avg_tGravityAcc_std_Z"
-"avg_tBodyAccJerk_mean_X"
-"avg_tBodyAccJerk_mean_Y"
-"avg_tBodyAccJerk_mean_Z"
-"avg_tBodyAccJerk_std_X"
-"avg_tBodyAccJerk_std_Y"
-"avg_tBodyAccJerk_std_Z"
-"avg_tBodyGyro_mean_X"
-"avg_tBodyGyro_mean_Y"
-"avg_tBodyGyro_mean_Z"
-"avg_tBodyGyro_std_X"
-"avg_tBodyGyro_std_Y"
-"avg_tBodyGyro_std_Z"
-"avg_tBodyGyroJerk_mean_X"
-"avg_tBodyGyroJerk_mean_Y"
-"avg_tBodyGyroJerk_mean_Z"
-"avg_tBodyGyroJerk_std_X"
-"avg_tBodyGyroJerk_std_Y"
-"avg_tBodyGyroJerk_std_Z"
-"avg_tBodyAccMag_mean"
-"avg_tBodyAccMag_std"
-"avg_tGravityAccMag_mean"
-"avg_tGravityAccMag_std"
-"avg_tBodyAccJerkMag_mean"
-"avg_tBodyAccJerkMag_std"
-"avg_tBodyGyroMag_mean"
-"avg_tBodyGyroMag_std"
-"avg_tBodyGyroJerkMag_mean"
-"avg_tBodyGyroJerkMag_std"
-"avg_fBodyAcc_mean_X"
-"avg_fBodyAcc_mean_Y"
-"avg_fBodyAcc_mean_Z"
-"avg_fBodyAcc_std_X"
-"avg_fBodyAcc_std_Y"
-"avg_fBodyAcc_std_Z"
-"avg_fBodyAcc_meanFreq_X"
-"avg_fBodyAcc_meanFreq_Y"
-"avg_fBodyAcc_meanFreq_Z"
-"avg_fBodyAccJerk_mean_X"
-"avg_fBodyAccJerk_mean_Y"
-"avg_fBodyAccJerk_mean_Z"
-"avg_fBodyAccJerk_std_X"
-"avg_fBodyAccJerk_std_Y"
-"avg_fBodyAccJerk_std_Z"
-"avg_fBodyAccJerk_meanFreq_X"
-"avg_fBodyAccJerk_meanFreq_Y"
-"avg_fBodyAccJerk_meanFreq_Z"
-"avg_fBodyGyro_mean_X"
-"avg_fBodyGyro_mean_Y"
-"avg_fBodyGyro_mean_Z"
-"avg_fBodyGyro_std_X"
-"avg_fBodyGyro_std_Y"
-"avg_fBodyGyro_std_Z"
-"avg_fBodyGyro_meanFreq_X"
-"avg_fBodyGyro_meanFreq_Y"
-"avg_fBodyGyro_meanFreq_Z"
-"avg_fBodyAccMag_mean"
-"avg_fBodyAccMag_std"
-"avg_fBodyAccMag_meanFreq"
-"avg_fBodyBodyAccJerkMag_mean"
-"avg_fBodyBodyAccJerkMag_std"
-"avg_fBodyBodyAccJerkMag_meanFreq"
-"avg_fBodyBodyGyroMag_mean"
-"avg_fBodyBodyGyroMag_std"
-"avg_fBodyBodyGyroMag_meanFreq"
-"avg_fBodyBodyGyroJerkMag_mean"
-"avg_fBodyBodyGyroJerkMag_std"
-"avg_fBodyBodyGyroJerkMag_meanFreq"
+# Getting and Cleaning Data Course Code Book
+
+### Summary
+
+### Variable Descriptions: 
+
+- subject
+- activity
+- avg_tBodyAcc_mean_X
+- avg_tBodyAcc_mean_Y
+- avg_tBodyAcc_mean_Z
+- avg_tBodyAcc_std_X
+- avg_tBodyAcc_std_Y
+- avg_tBodyAcc_std_Z
+- avg_tGravityAcc_mean_X
+- avg_tGravityAcc_mean_Y
+- avg_tGravityAcc_mean_Z
+- avg_tGravityAcc_std_X
+- avg_tGravityAcc_std_Y
+- avg_tGravityAcc_std_Z
+- avg_tBodyAccJerk_mean_X
+- avg_tBodyAccJerk_mean_Y
+- avg_tBodyAccJerk_mean_Z
+- avg_tBodyAccJerk_std_X
+- avg_tBodyAccJerk_std_Y
+- avg_tBodyAccJerk_std_Z
+- avg_tBodyGyro_mean_X
+- avg_tBodyGyro_mean_Y
+- avg_tBodyGyro_mean_Z
+- avg_tBodyGyro_std_X
+- avg_tBodyGyro_std_Y
+- avg_tBodyGyro_std_Z
+- avg_tBodyGyroJerk_mean_X
+- avg_tBodyGyroJerk_mean_Y
+- avg_tBodyGyroJerk_mean_Z
+- avg_tBodyGyroJerk_std_X
+- avg_tBodyGyroJerk_std_Y
+- avg_tBodyGyroJerk_std_Z
+- avg_tBodyAccMag_mean
+- avg_tBodyAccMag_std
+- avg_tGravityAccMag_mean
+- avg_tGravityAccMag_std
+- avg_tBodyAccJerkMag_mean
+- avg_tBodyAccJerkMag_std
+- avg_tBodyGyroMag_mean
+- avg_tBodyGyroMag_std
+- avg_tBodyGyroJerkMag_mean
+- avg_tBodyGyroJerkMag_std
+- avg_fBodyAcc_mean_X
+- avg_fBodyAcc_mean_Y
+- avg_fBodyAcc_mean_Z
+- avg_fBodyAcc_std_X
+- avg_fBodyAcc_std_Y
+- avg_fBodyAcc_std_Z
+- avg_fBodyAcc_meanFreq_X
+- avg_fBodyAcc_meanFreq_Y
+- avg_fBodyAcc_meanFreq_Z
+- avg_fBodyAccJerk_mean_X
+- avg_fBodyAccJerk_mean_Y
+- avg_fBodyAccJerk_mean_Z
+- avg_fBodyAccJerk_std_X
+- avg_fBodyAccJerk_std_Y
+- avg_fBodyAccJerk_std_Z
+- avg_fBodyAccJerk_meanFreq_X
+- avg_fBodyAccJerk_meanFreq_Y
+- avg_fBodyAccJerk_meanFreq_Z
+- avg_fBodyGyro_mean_X
+- avg_fBodyGyro_mean_Y
+- avg_fBodyGyro_mean_Z
+- avg_fBodyGyro_std_X
+- avg_fBodyGyro_std_Y
+- avg_fBodyGyro_std_Z
+- avg_fBodyGyro_meanFreq_X
+- avg_fBodyGyro_meanFreq_Y
+- avg_fBodyGyro_meanFreq_Z
+- avg_fBodyAccMag_mean
+- avg_fBodyAccMag_std
+- avg_fBodyAccMag_meanFreq
+- avg_fBodyBodyAccJerkMag_mean
+- avg_fBodyBodyAccJerkMag_std
+- avg_fBodyBodyAccJerkMag_meanFreq
+- avg_fBodyBodyGyroMag_mean
+- avg_fBodyBodyGyroMag_std
+- avg_fBodyBodyGyroMag_meanFreq
+- avg_fBodyBodyGyroJerkMag_mean
+- avg_fBodyBodyGyroJerkMag_std
+- avg_fBodyBodyGyroJerkMag_meanFreq
