@@ -4,84 +4,84 @@
 
 ### Variable Descriptions: 
 
-- subject
-- activity
-- avg_tBodyAcc_mean_X
-- avg_tBodyAcc_mean_Y
-- avg_tBodyAcc_mean_Z
-- avg_tBodyAcc_std_X
-- avg_tBodyAcc_std_Y
-- avg_tBodyAcc_std_Z
-- avg_tGravityAcc_mean_X
-- avg_tGravityAcc_mean_Y
-- avg_tGravityAcc_mean_Z
-- avg_tGravityAcc_std_X
-- avg_tGravityAcc_std_Y
-- avg_tGravityAcc_std_Z
-- avg_tBodyAccJerk_mean_X
-- avg_tBodyAccJerk_mean_Y
-- avg_tBodyAccJerk_mean_Z
-- avg_tBodyAccJerk_std_X
-- avg_tBodyAccJerk_std_Y
-- avg_tBodyAccJerk_std_Z
-- avg_tBodyGyro_mean_X
-- avg_tBodyGyro_mean_Y
-- avg_tBodyGyro_mean_Z
-- avg_tBodyGyro_std_X
-- avg_tBodyGyro_std_Y
-- avg_tBodyGyro_std_Z
-- avg_tBodyGyroJerk_mean_X
-- avg_tBodyGyroJerk_mean_Y
-- avg_tBodyGyroJerk_mean_Z
-- avg_tBodyGyroJerk_std_X
-- avg_tBodyGyroJerk_std_Y
-- avg_tBodyGyroJerk_std_Z
-- avg_tBodyAccMag_mean
-- avg_tBodyAccMag_std
-- avg_tGravityAccMag_mean
-- avg_tGravityAccMag_std
-- avg_tBodyAccJerkMag_mean
-- avg_tBodyAccJerkMag_std
-- avg_tBodyGyroMag_mean
-- avg_tBodyGyroMag_std
-- avg_tBodyGyroJerkMag_mean
-- avg_tBodyGyroJerkMag_std
-- avg_fBodyAcc_mean_X
-- avg_fBodyAcc_mean_Y
-- avg_fBodyAcc_mean_Z
-- avg_fBodyAcc_std_X
-- avg_fBodyAcc_std_Y
-- avg_fBodyAcc_std_Z
-- avg_fBodyAcc_meanFreq_X
-- avg_fBodyAcc_meanFreq_Y
-- avg_fBodyAcc_meanFreq_Z
-- avg_fBodyAccJerk_mean_X
-- avg_fBodyAccJerk_mean_Y
-- avg_fBodyAccJerk_mean_Z
-- avg_fBodyAccJerk_std_X
-- avg_fBodyAccJerk_std_Y
-- avg_fBodyAccJerk_std_Z
-- avg_fBodyAccJerk_meanFreq_X
-- avg_fBodyAccJerk_meanFreq_Y
-- avg_fBodyAccJerk_meanFreq_Z
-- avg_fBodyGyro_mean_X
-- avg_fBodyGyro_mean_Y
-- avg_fBodyGyro_mean_Z
-- avg_fBodyGyro_std_X
-- avg_fBodyGyro_std_Y
-- avg_fBodyGyro_std_Z
-- avg_fBodyGyro_meanFreq_X
-- avg_fBodyGyro_meanFreq_Y
-- avg_fBodyGyro_meanFreq_Z
-- avg_fBodyAccMag_mean
-- avg_fBodyAccMag_std
-- avg_fBodyAccMag_meanFreq
-- avg_fBodyBodyAccJerkMag_mean
-- avg_fBodyBodyAccJerkMag_std
-- avg_fBodyBodyAccJerkMag_meanFreq
-- avg_fBodyBodyGyroMag_mean
-- avg_fBodyBodyGyroMag_std
-- avg_fBodyBodyGyroMag_meanFreq
-- avg_fBodyBodyGyroJerkMag_mean
-- avg_fBodyBodyGyroJerkMag_std
-- avg_fBodyBodyGyroJerkMag_meanFreq
+- subject ==> Subject identifier (integer 1 - 30).
+- activity ==> Activity specifier providing guideline of the activity performed during measurement (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
+- avg_tBodyAcc_mean_X ==> Body acceleration mean in X dimension averaged for subject and activity (time domain).
+- avg_tBodyAcc_mean_Y ==> Body acceleration mean in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyAcc_mean_Z ==> Body acceleration mean in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyAcc_std_X ==> Body acceleration standard deviation in X dimension averaged for subject and activity (time domain).
+- avg_tBodyAcc_std_Y ==> Body acceleration standard deviation in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyAcc_std_Z ==> Body acceleration standard deviation in Z dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_mean_X ==> Gravity acceleration mean in X dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_mean_Y ==> Gravity acceleration mean in Y dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_mean_Z ==> Gravity acceleration mean in Z dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_std_X ==> Gravity acceleration mean in X dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_std_Y ==> Gravity acceleration mean in Y dimension averaged for subject and activity (time domain).
+- avg_tGravityAcc_std_Z ==> Gravity acceleration mean in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_mean_X ==> Body acceleration jerk mean in X dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_mean_Y ==> Body acceleration jerk mean in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_mean_Z ==> Body acceleration jerk mean in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_std_X ==> Body acceleration jerk standard deviation in X dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_std_Y ==> Body acceleration jerk standard deviation in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyAccJerk_std_Z ==> Body acceleration jerk standard deviation in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_mean_X ==> Body gyroscopic mean in X dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_mean_Y ==> Body gyroscopic mean in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_mean_Z ==> Body gyroscopic mean in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_std_X ==> Body gyroscopic standard deviation in X dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_std_Y ==> Body gyroscopic standard deviation in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyGyro_std_Z ==> Body gyroscopic standard deviation in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_mean_X ==> Body gyroscopic jerk mean in X dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_mean_Y ==> Body gyroscopic jerk mean in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_mean_Z ==> Body gyroscopic jerk mean in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_std_X ==> Body gyroscopic jerk standard deviation in X dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_std_Y ==> Body gyroscopic jerk standard deviation in Y dimension averaged for subject and activity (time domain).
+- avg_tBodyGyroJerk_std_Z ==> Body gyroscopic jerk standard deviation in Z dimension averaged for subject and activity (time domain).
+- avg_tBodyAccMag_mean ==> Body acceleration linear magnitude mean averaged for subject and activity (time domain).
+- avg_tBodyAccMag_std ==> Body acceleration linear magnitude standard deviation averaged for subject and activity (time domain).
+- avg_tGravityAccMag_mean ==> Gravity acceleration linear magnitude mean averaged for subject and activity (time domain).
+- avg_tGravityAccMag_std ==> Gravity acceleration linear magnitude standard deviation averaged for subject and activity (time domain).
+- avg_tBodyAccJerkMag_mean ==> 
+- avg_tBodyAccJerkMag_std ==> 
+- avg_tBodyGyroMag_mean ==> 
+- avg_tBodyGyroMag_std ==> 
+- avg_tBodyGyroJerkMag_mean ==> 
+- avg_tBodyGyroJerkMag_std ==> 
+- avg_fBodyAcc_mean_X ==> 
+- avg_fBodyAcc_mean_Y ==> 
+- avg_fBodyAcc_mean_Z ==> 
+- avg_fBodyAcc_std_X ==> 
+- avg_fBodyAcc_std_Y ==> 
+- avg_fBodyAcc_std_Z ==> 
+- avg_fBodyAcc_meanFreq_X ==> 
+- avg_fBodyAcc_meanFreq_Y ==> 
+- avg_fBodyAcc_meanFreq_Z ==> 
+- avg_fBodyAccJerk_mean_X ==> 
+- avg_fBodyAccJerk_mean_Y ==> 
+- avg_fBodyAccJerk_mean_Z ==> 
+- avg_fBodyAccJerk_std_X ==> 
+- avg_fBodyAccJerk_std_Y ==> 
+- avg_fBodyAccJerk_std_Z ==> 
+- avg_fBodyAccJerk_meanFreq_X ==> 
+- avg_fBodyAccJerk_meanFreq_Y ==> 
+- avg_fBodyAccJerk_meanFreq_Z ==> 
+- avg_fBodyGyro_mean_X ==> 
+- avg_fBodyGyro_mean_Y ==> 
+- avg_fBodyGyro_mean_Z ==> 
+- avg_fBodyGyro_std_X ==> 
+- avg_fBodyGyro_std_Y ==> 
+- avg_fBodyGyro_std_Z ==> 
+- avg_fBodyGyro_meanFreq_X ==> 
+- avg_fBodyGyro_meanFreq_Y ==> 
+- avg_fBodyGyro_meanFreq_Z ==> 
+- avg_fBodyAccMag_mean ==> 
+- avg_fBodyAccMag_std ==> 
+- avg_fBodyAccMag_meanFreq ==> 
+- avg_fBodyBodyAccJerkMag_mean ==> 
+- avg_fBodyBodyAccJerkMag_std ==> 
+- avg_fBodyBodyAccJerkMag_meanFreq ==> 
+- avg_fBodyBodyGyroMag_mean ==> 
+- avg_fBodyBodyGyroMag_std ==> 
+- avg_fBodyBodyGyroMag_meanFreq ==> 
+- avg_fBodyBodyGyroJerkMag_mean ==> 
+- avg_fBodyBodyGyroJerkMag_std ==> 
+- avg_fBodyBodyGyroJerkMag_meanFreq ==> 
